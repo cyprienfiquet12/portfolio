@@ -35,8 +35,8 @@ export const Skills = () => {
           </div>
           <h3 className="text-2xl font-semibold tracking-tight">Tailwind</h3>
           <p className="text-sm text-muted-foreground">
-            I discovered <Code>Tailwind</Code> 1 year ago and i can't deal
-            without it now. It's my main CSS framework !
+            I discovered <Code>Tailwind</Code> 1 year ago and i can&apos;t deal
+            without it now. It&apos;s my main CSS framework !
           </p>
         </div>
         <div className="flex flex-col gap-2 flex-1">
