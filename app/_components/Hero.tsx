@@ -13,7 +13,7 @@ export const Hero = () => {
       <div className="flex-[3] w-full flex flex-col gap-2">
         <h2 className="font-caption text-5xl font-bold text-primary">
           {" "}
-          Cyprien Fiquet
+          Cyprien FIQUET
         </h2>
         <h3 className="text-3xl font-caption"> FullStack Developper</h3>
         <p className="text-base">
