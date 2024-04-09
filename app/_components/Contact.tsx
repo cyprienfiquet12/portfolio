@@ -8,7 +8,7 @@ export const Contact = () => {
     <Section className="flex flex-col items-start gap-4">
       <Badge variant={"outline"}>Contact me</Badge>
       <h2 className="pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        I will be happe to work with you
+        I will be happy to work with you
       </h2>
       <div className="flex max-md:flex-col w-full gap-4">
         <div className="flex-1">

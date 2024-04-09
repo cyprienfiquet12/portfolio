@@ -24,7 +24,7 @@ export const Skills = () => {
           <h3 className="text-2xl font-semibold tracking-tight">React</h3>
           <p className="text-sm text-muted-foreground">
             My main frontend framework is <Code>React</Code> I also use{" "}
-            <Code>Next.js</Code> as backend and frontend framework or i use{" "}
+            <Code>Next.js</Code> as backend and frontend framework or I use{" "}
             <Code>Node.js</Code> or <Code>PHP</Code> (with <Code>Symfony</Code>)
             as backend
           </p>
@@ -35,7 +35,7 @@ export const Skills = () => {
           </div>
           <h3 className="text-2xl font-semibold tracking-tight">Tailwind</h3>
           <p className="text-sm text-muted-foreground">
-            I discovered <Code>Tailwind</Code> 1 year ago and i can&apos;t deal
+            I discovered <Code>Tailwind</Code> 1 year ago and I can&apos;t deal
             without it now. It&apos;s my main CSS framework !
           </p>
         </div>
@@ -45,8 +45,8 @@ export const Skills = () => {
           </div>
           <h3 className="text-2xl font-semibold tracking-tight">Figma</h3>
           <p className="text-sm text-muted-foreground">
-            I love spending time on <Code>Figma</Code>, try new things for
-            designs, new colors palette. <Code>Figma</Code> make me feel and
+            I like spending time on <Code>Figma</Code>, try new things for
+            designs, new colors palet. <Code>Figma</Code> make me feel and
             relaxed.
           </p>
         </div>
