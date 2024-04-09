@@ -14,7 +14,7 @@ on:
         type: string
 
 env:
-  DEPLOYMENT_FOLDER: public
+  DEPLOYMENT_FOLDER: out
 
 jobs:
 # Please do not rename this job
@@ -39,7 +39,7 @@ jobs:
         run: |
           npm install --global pnpm
           pnpm install
-          pnpm build
+          npm run build
 
 # Please do not touch the following action
       - name: Store deployment content
