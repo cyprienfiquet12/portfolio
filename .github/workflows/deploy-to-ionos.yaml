@@ -47,7 +47,7 @@ jobs:
           status: in_progress
 
       - name: Retrieve stored deployment
-        uses: ionos-deploy-now/artifact-action@v2
+        uses: ionos-deploy-now/artifact-action@v1
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
