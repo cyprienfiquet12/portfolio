@@ -36,7 +36,7 @@ jobs:
         deployment-id: ${{ fromJson(inputs.deployment-ids) }}
     steps:
       - name: Update deployment status
-        uses: ionos-deploy-now/project-action@v1
+        uses: ionos-deploy-now/project-action@v2
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
@@ -47,7 +47,7 @@ jobs:
           status: in_progress
 
       - name: Retrieve stored deployment
-        uses: ionos-deploy-now/artifact-action@v1
+        uses: ionos-deploy-now/artifact-action@v2
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
@@ -100,7 +100,7 @@ jobs:
 
       - name: Update deployment status
         if: ${{ always() }}
-        uses: ionos-deploy-now/project-action@v1
+        uses: ionos-deploy-now/project-action@v2
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
@@ -116,7 +116,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Notify all deployments finished
-        uses: ionos-deploy-now/project-action@v1
+        uses: ionos-deploy-now/project-action@v2
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
