@@ -9,7 +9,7 @@ import { LinkedInIcon } from "./icons/LinkedInIcon";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 py-4">
+    <header className="sticky top-0 py-4 backdrop-filter backdrop-blur-lg bg-opacity-25">
       <Section className="flex items-baseline">
         <h1 className="text-lg font-bold text-primary">cyprienfiquet.com</h1>
         <div className="flex-1" />
