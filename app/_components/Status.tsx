@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
-import { Egg, Footprints, Home } from "lucide-react";
+import { Egg, Footprints, Home, Layers3 } from "lucide-react";
 import Companie from "../_assets/img/organilog.png";
 import OldCompanie1 from "../_assets/img/proxiad.jpeg";
 import Profile from "../_assets/img/profil.png";
@@ -62,6 +62,13 @@ export const Status = () => {
 };
 const SIDE_PROJECT: SideProjectProps[] = [
   {
+    Logo: Layers3,
+    title: "My Boilerplate",
+    description:
+      "I have created a boilerplate that is completely free and features all the technologies I like (React, NextJs, Tailwind, Prisma, Stripe, AuthJs). You can thank me by giving me a star on this Repository",
+    url: "https://github.com/cyprienfiquet12/my-public-stack",
+  },
+  {
     Logo: Egg,
     title: "Dofus Adventure Manager",
     description:
@@ -72,7 +79,7 @@ const SIDE_PROJECT: SideProjectProps[] = [
     Logo: Footprints,
     title: "Promenade",
     description:
-      "An app for people who like to walk their dogs or who want to find someone to do it for them.",
+      "An app for people who like to walk with their dogs or who want to find someone to do it for them.",
     url: "",
   },
 ];
